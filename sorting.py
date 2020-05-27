@@ -50,6 +50,7 @@ def heapSort(arr, comparisons, swaps):
         arr = heap.toArr()
         arr = arr + srted
         yield arr
+    yield arr
 
 def quickSort(arr, start, end, comparisons, swaps):
     if start >= end:
@@ -238,7 +239,7 @@ units = int(input('Number of Data Points to Sort: '))
 
 if sort == 6:
     maxRange = units//2
-    rang = int(input('Specify the Range of the Data Points (<{}): '.format(maxRange)))
+    rang = int(input('Specify the Range of the Data Points (<={}): '.format(maxRange)))
     valsCountSort = numbers(rang, units)
 
 values = [x + 1 for x in range(units)]
@@ -281,7 +282,7 @@ def update(vals, rects, operations):
     operations[0] += 1
     ax.set_xlabel('Data Points: {} - Comparisons: {} - Swaps: {} - Operations: {}'.format(units, comparisons[0], swaps[0], operations[0]))
     
-animation = FuncAnimation(fig, func=update, frames=generator, fargs=(bars, operations), interval=1, repeat=False)
+animation = FuncAnimation(fig, func=update, frames=generator, fargs=(bars, operations), interval=200, repeat=False)
         
 plt.show()
 
