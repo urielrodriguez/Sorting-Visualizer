@@ -220,11 +220,6 @@ class MaxHeap:
             arr.append(val)
         del arr[0]
         return arr
-    def getComparisons(self):
-        return self.comparisons
-
-    def getSwaps(self):
-        return self.swaps
 
 #######################################
 # DATA
