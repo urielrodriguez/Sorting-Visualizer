@@ -1,4 +1,4 @@
-# Sorting-Visualizer
+# Sorting Visualizer
 Sorting visualizer written in Python and visualized with Matplotlib
 
 ## Sorting Algorithms Visualized
