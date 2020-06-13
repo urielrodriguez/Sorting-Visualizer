@@ -270,6 +270,7 @@ elif sort == 6:
 #######################################
 
 fig, ax = plt.subplots()
+fig.canvas.set_window_title('Sorting Visualizer')
 bars = ax.bar(range(len(values)), values, color='c', edgecolor='k')
 ax.set_title(title)
 ax.set_xlim(0, units)
@@ -282,7 +283,7 @@ def update(vals, rects, operations):
     operations[0] += 1
     ax.set_xlabel('Data Points: {} - Comparisons: {} - Swaps: {} - Operations: {}'.format(units, comparisons[0], swaps[0], operations[0]))
     
-animation = FuncAnimation(fig, func=update, frames=generator, fargs=(bars, operations), interval=200, repeat=False)
+animation = FuncAnimation(fig, func=update, frames=generator, fargs=(bars, operations), interval=1, repeat=False)
         
 plt.show()
 
