@@ -1,5 +1,5 @@
 # Sorting Visualizer
-Sorting visualizer written in Python and visualized with Matplotlib
+Sorting algorithms visualizer written in Python and visualized with Matplotlib
 
 ## Instructions
 * Run sorting.py (python sorting.py)
