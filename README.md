@@ -8,3 +8,5 @@ Sorting visualizer written in Python and visualized with Matplotlib
 * Heap Sort
 * Quick Sort
 * Counting Sort
+
+<img src="gifs/CountingSortGif.gif" width="40" height="40" />
