@@ -2,7 +2,7 @@
 Sorting algorithms visualizer written in Python and visualized with Matplotlib
 
 ## Instructions
-* Run sorting.py (<pre><code>python sorting.py</code></pre>)
+* Run sorting.py (python sorting.py)
 * Select an algorithm to visualize (A list of the available algorithms will be provided, enter the number corresponding to the one you would like to visualize)
 * Enter the number of data units you would like to sort 
 * For the Counting Sort visualizer, enter the range of the data units you would like to sort
